@@ -2,7 +2,9 @@ import numpy as np
 
 
 class Star:
-    def __init__(self, name: str, mass: int, radius: int):
+    def __init__(
+        self, name: str, mass: int, radius: int, distance: int = 0, velocity: int = 0
+    ):
         self.mass = mass
         self.radius = radius
 
