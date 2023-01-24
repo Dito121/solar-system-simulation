@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 black = "*"
 numpy = "*"
+matplotlib = "*"
+scipy = "*"
 
 [dev-packages]
 
